@@ -20,3 +20,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::any('demo',function (){
    return 'this demo produce';
 });
+Route::any('demo21',function (){
+    return 'this demo21 produce';
+});
+Route::any('demo31',function (){
+    return 'this demo31 produce';
+});
