@@ -26,3 +26,6 @@ Route::any('demo21',function (){
 Route::any('demo31',function (){
     return 'this demo31 produce';
 });
+Route::any('demo31',function (){
+    return 'this demo31 produce';
+});

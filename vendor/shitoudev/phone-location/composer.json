@@ -1,0 +1,25 @@
+{
+    "name": "shitoudev/phone-location",
+    "description": "location of phone number",
+    "keywords": ["phone", "location"],
+    "license": "MIT",
+    "homepage": "https://github.com/shitoudev/phone-location",
+    "authors": [
+        {
+            "name": "zhenwen liu",
+            "email": "shitoudev@gmail.com",
+            "homepage": "https://shitoudev.github.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shitoudev\\Phone\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
