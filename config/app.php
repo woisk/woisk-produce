@@ -179,6 +179,8 @@ return [
 
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
         Jenssegers\Agent\AgentServiceProvider::class,
+        Nwidart\Modules\LaravelModulesServiceProvider::class,
+    
 
     ],
 
@@ -234,6 +236,7 @@ return [
         'Agent' => Jenssegers\Agent\Facades\Agent::class,
         'Ip' => Zhuzhichao\IpLocationZh\Ip::class,
         'Phone' => Shitoudev\Phone\PhoneLocation::class,
+        'Module' => Nwidart\Modules\Facades\Module::class,
 
     ],
 

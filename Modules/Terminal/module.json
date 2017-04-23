@@ -1,0 +1,16 @@
+{
+    "name": "Terminal",
+    "alias": "terminal",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Terminal\\Providers\\TerminalServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
